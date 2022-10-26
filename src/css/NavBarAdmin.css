@@ -1,0 +1,47 @@
+.navbarAdmin {
+    height: 990px;
+    background-color: rgb(226, 226, 226);
+    background-color: rgb(148, 16, 16);
+
+}
+
+.flexContainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 300px;
+    background: rgb(69, 199, 9);
+}
+
+.navLeft {
+    background: rgb(34, 34, 34);
+    margin: 5px 15px;
+    border-radius: 15px;
+    margin-top: 80px;
+}
+
+.navCenter {
+    background: rgb(53, 10, 153);
+    height: 300px;
+}
+
+.navRight {
+    background: rgb(238, 19, 209);
+    height: 300px;
+}
+
+/* //navLeft */
+.navLeft1 {
+    display:columns
+}
+.navLeft1 h1,h2 {
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+.navLeft1 h2 {
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+}

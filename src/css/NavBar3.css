@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    border-bottom: 1px solid rgb(226, 25, 25);
+    flex-flow: row wrap;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+nav img {
+    width: 100px;
+    height: 80px;
+}
+
+nav a {
+    margin: 0 0.5rem;
+}
+
+.obt-devis {
+    background-color: #2ead4e;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.obt-devis a {
+    color: #fff;
+}
+
+form div {
+    background-color: #f4f5f6;
+    border-radius: 5px;
+    min-width: 400px;
+    margin: 0 1rem;
+}
+
+nav form input[type="search"] {
+    min-width: 500px;
+    height: 40px;
+    border: none;
+    margin: 0 1rem;
+    flex: 1 1 auto;
+    color: rgb(29, 28, 28);
+    font-weight: bold;
+    background-color: #f4f5f6;
+    outline: none
+}
+
+nav form input[type="submit"] {
+    background: rgb(243, 78, 78);
+    margin: 0 1rem;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    padding: 0.2rem 0.5rem;
+}
+
+nav form input:focus {
+    color: red;
+}
+
+nav form svg {
+    margin-left: 0.5rem;
+}
+
+.nav-liens a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(7, 7, 7);
+    align-self: center;
+}
+
+
+.nav-liens a:hover {
+    color: rgb(243, 78, 78);
+    transition: 0.5s;
+    flex-flow: wrap;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.infos-user {
+    background-color: #09a4eb;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 0.3rem;
+}
+
+.connexion {
+    background-color: #09a4eb;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 2px 2px;
+
+}

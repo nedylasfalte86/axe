@@ -1,0 +1,13 @@
+.container {
+    background: rgb(247, 247, 247);
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+.card-container {
+    display: flex;
+    word-wrap: break-word;}
+
+.Card{
+    margin: 0 15px;
+}

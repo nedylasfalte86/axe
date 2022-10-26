@@ -1,0 +1,5 @@
+.NavBarSouth-liens {
+    background: rgb(243, 78, 78);
+    display: flex;
+    justify-content: space-between;
+}

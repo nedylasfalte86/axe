@@ -1,0 +1,35 @@
+.flex-banner {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.left {
+    max-width: 300px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.rigth {
+    max-width: 300px;
+    flex-wrap: wrap;
+}
+.rigth h3{
+text-align: center;
+}
+
+
+.span-banner{
+    color: rgb(223, 0, 0);
+    font-weight: bold;
+}
+
+.container-avatar{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.avatar{
+    margin: 0.2rem .3rem;
+}
+

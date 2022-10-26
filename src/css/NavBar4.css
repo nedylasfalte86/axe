@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topMenu {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    /* -webkit-box-shadow: 5px 5px 5px 3px rgb(255, 255, 255); */
+    box-shadow: 5px 5px 20px 3px rgb(250, 241, 241);
+
+}
+
+.topMenu .logo {
+    align-self: center;
+}
+
+.topMenu img {
+    width: 80px;
+    height: 80px;
+}
+
+nav {
+    margin-bottom: 2rem;
+}
+
+form {
+    align-self: center;
+}
+
+.component-searched {
+    display: block;
+    /* background: #000; */
+}
+
+.nomUser {
+    display: none;
+}
+
+.panierAndMenuHamburger {
+    display: flex;
+    /* background: rgb(217, 255, 0); */
+    align-items: center;
+}
+
+.menu-hamburger {
+    margin: 0 1rem;
+    display: none;
+}
+
+form div {
+    background: #f4f5f6;
+    border-radius: 5px;
+}
+
+.form-mobile {
+    display: none
+}
+
+nav form input[type="search"] {
+    min-width: 1024px;
+    height: 40px;
+    border: none;
+    margin: 0 1rem;
+    flex: 1 1 auto;
+    color: rgb(29, 28, 28);
+    font-weight: bold;
+    background-color: #f4f5f6;
+    outline: none;
+    border-radius: 5px;
+}
+
+nav form input[type="submit"] {
+    background: rgb(243, 78, 78);
+    margin: 0 1rem;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    padding: 0.2rem 0.5rem;
+}
+
+.submit-icon {
+    display: none;
+}
+
+.SearchSharpIcon {
+    display: none;
+}
+
+.infos-user {
+    background-color: #09a4eb;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 0.3rem;
+    margin-right: 1rem;
+}
+
+/* LIENS DE NAVIGATION */
+
+.barNav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 0.1rem;
+
+}
+
+.barNav .nav-links ul {
+    display: flex;
+    align-content: center;
+}
+
+.barNav .nav-links ul li {
+    margin: 0 0.5rem;
+    list-style: none;
+}
+
+.barNav .nav-links ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.barNav .nav-links ul li a:hover {
+    border-bottom: 3px solid rgb(196, 32, 32);
+    font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .topMenu {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        height: 60px;
+        background: rgb(255, 255, 255);
+        border-bottom: 1px solid #000;
+
+    }
+
+    .topMenu .logo {
+        align-self: center;
+        margin-left: 1rem;
+    }
+
+    .topMenu img {
+        width: 40px;
+        height: 40px;
+        margin-top: 0.7rem;
+
+    }
+
+    .menu-hamburger {
+        margin: 0 1rem;
+        display: block;
+    }
+
+    .infos-user {
+        display: none;
+    }
+
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links .nomUser {
+        display: block;
+        margin-bottom: 1rem;
+        padding: 1rem 0.5rem;
+        border-bottom: 3px solid rgba(219, 219, 219, 0.9);
+        text-decoration: none;
+    }
+
+    .nomUser {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .nav-links ul {
+        height: 100%;
+
+    }
+
+    .nav-links ul li {
+        padding: 1rem;
+    }
+
+    .nav-links {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        z-index: 999;
+        margin-right: -100%;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .nav-links .footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 2rem 1rem;
+    }
+
+    form {
+        display: none;
+    }
+
+    .form-mobile {
+        display: block;
+        margin: 0 0.8rem;
+        margin-top: 0.5rem;
+    }
+
+    .formSearch-mobile {
+        display: none;
+    }
+
+    .flex-input-iconSearch {
+        display: flex;
+        align-self: center;
+    }
+
+    .flex-input-iconSearch .search-icon {
+        align-self: center;
+    }
+
+
+
+    .form-mobile input[type="search"] {
+        min-width: 100px;
+        height: 40px;
+        border: none;
+        flex: 1 1 auto;
+        color: rgb(29, 28, 28);
+        font-weight: bold;
+        background-color: #f4f5f6;
+        outline: none;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+
+    .barNav {
+        margin-right: 31%;
+    }
+
+    .barNav-mobile {
+        display: block;
+        transition: all 0.5s ease;
+        /* background: #09a4eb; */
+        box-shadow: 4px 2px 15px 1px;
+    }
+
+    .barNav-mobile ul {
+        flex-direction: column;
+        padding-left: 0.1rem;
+        width: 100%;
+        transition: all 0.4s ease-in-out;
+
+    }
+
+
+    .barNav-mobile ul li {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .barNav-mobile ul li a {
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-weight: bold;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+
+    .barNav-none {
+        transition: all 0.5s ease;
+        display: none;
+        margin-right: -100vh;
+    }
+
+    .footer a {
+        color: rgb(37, 37, 37)
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    nav form input[type="search"] {
+        min-width: 700px;
+        height: 40px;
+        border: none;
+        margin: 0 1rem;
+        flex: 1 1 auto;
+        color: rgb(29, 28, 28);
+        font-weight: bold;
+        background-color: #f4f5f6;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    nav form input[type="submit"] {
+        background: rgb(243, 78, 78);
+        margin: 0 1rem;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        border: none;
+        padding: 0.2rem 0.5rem;
+    }
+
+    .submit-icon {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+}
