@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/axe/static/css/main.80ea9978.css",
+    "main.js": "/axe/static/js/main.d2fa9d6a.js",
+    "static/media/axe-therm.jpeg": "/axe/static/media/axe-therm.7c018d16dc2f13360eb9.jpeg",
+    "index.html": "/axe/index.html",
+    "main.80ea9978.css.map": "/axe/static/css/main.80ea9978.css.map",
+    "main.d2fa9d6a.js.map": "/axe/static/js/main.d2fa9d6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80ea9978.css",
+    "static/js/main.d2fa9d6a.js"
+  ]
+}
